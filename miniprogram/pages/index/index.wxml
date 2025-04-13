@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="card">
+    <view class="title">欢迎使用我的小程序</view>
+    <view class="content">
+      <text>这是一个示例页面</text>
+    </view>
+    <button class="btn" bindtap="handleClick">点击我</button>
+  </view>
+  
+  <view class="card">
+    <view class="title">数据展示</view>
+    <view class="counter">
+      当前计数：{{counter}}
+    </view>
+    <view class="btn-group">
+      <button class="btn" bindtap="handleIncrement">增加</button>
+      <button class="btn" bindtap="handleDecrement">减少</button>
+    </view>
+  </view>
+</view> 

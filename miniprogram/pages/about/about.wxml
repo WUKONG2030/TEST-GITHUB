@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="card">
+    <view class="title">关于我们</view>
+    <view class="content">
+      <text>这是一个微信小程序示例项目，展示了以下功能：</text>
+      <view class="feature-list">
+        <view class="feature-item">• 页面导航</view>
+        <view class="feature-item">• 数据绑定</view>
+        <view class="feature-item">• 事件处理</view>
+        <view class="feature-item">• 组件使用</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="title">联系方式</view>
+    <view class="content">
+      <button class="btn" open-type="contact">客服会话</button>
+      <button class="btn" open-type="share">分享</button>
+    </view>
+  </view>
+</view> 
